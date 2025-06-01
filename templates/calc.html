@@ -1,0 +1,21 @@
+
+{% extends 'base.html'%}
+
+{%block head%} {% endblock %}
+
+{%block body%}
+<div>
+        
+        <form method="POST" action="/">
+            <h1>Calculator</h1>
+            <input type="text" placeholder="Enter the equation" name="equation"> 
+            <button type="submit" class="button">Calculate</button>
+       </form>
+        {%if result is not none %}
+            <p>Answer is {{result}}</p>
+        {%endif%}
+</div>
+
+    
+{% endblock %}
+

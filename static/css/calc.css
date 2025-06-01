@@ -1,0 +1,46 @@
+
+body {
+    background: linear-gradient(to right, azure, rgb(120, 214, 221));
+}
+
+div {
+    display: block;
+    background-color: azure;
+    width: 400px;
+    height: 250px;
+    border: 2px black solid;
+    border-radius: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 240px auto 0 auto ;
+    
+}
+
+h1,form{
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-family: serif;
+    font-size: 18px;
+}
+
+form input{
+    display: block;
+    margin: 0 auto 0 auto;
+    background-color: azure;
+    text-align: center;
+    block-size: 25px;
+    width: 200px;
+    border: 2px black solid ;
+}
+
+.button {
+    display: block;
+    margin: 15px auto 0 auto;
+}
+
